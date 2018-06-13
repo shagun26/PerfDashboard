@@ -20,6 +20,30 @@ body {
 	text-align: center;
 }
 
+#navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #eeeeee;
+}
+
+#navbar li {
+	float: left;
+}
+
+#navbar li a {
+	display: block;
+	color: #141412;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#navbar li a:hover {
+	background-color: #111;
+}
+
 img.yorklogo{
 	margin: 15px 0 0 0;
 	width: 110px;
