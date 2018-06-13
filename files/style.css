@@ -1,28 +1,24 @@
-
-*{
-	font-family: "Source Sans Pro", Arial, Helvetica, "Nimbus Sans L", sans-serif;
-	box-sizing: border-box;
-}
-
-html, body{
-	width: 100vw !important;
-	margin: 0 !important;
-	padding: 0 !important;
-	overflow-x: hidden;
-}
-
 body {
+	font-family: "Source Sans Pro", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 	color:#141412;
 	font-size: 1em;
 	line-height: 25.6px;
-	display: block;
+	margin: 0;
 }
 
-img{
-	vertical-align: middle;
-	border: 0;
+.container{
+	width: 80%;
+	margin:auto;
+	overflow: hidden;
 }
 
+#main-header {
+	background-color:#e31837;
+	color:#ffffff;
+	padding: 15px;
+	margin: 20px 0;
+	text-align: center;
+}
 
 img.yorklogo{
 	margin: 15px 0 0 0;
@@ -41,11 +37,6 @@ a{
 }
 
 
-.container{
-	width: 80%;
-	margin:auto;
-}
-
 
 .button{
 	background-color: #333;
@@ -62,25 +53,11 @@ a{
 .clr{
 clear:both;
 }
+
 .box-2 a{
 	text-decoration: none;
 }
 
-.box-1{
-	background-color:#333;
-	color:#fff;
-	border: 5px red solid;
-	padding: 15px;
-	margin: 20px 0;
-	text-align: center;
-
-}
-
-.box-1 h1{
-	font-family: Tahoma;
-	font-weight: bold;
-	text-transform: uppercase;
-}
 
 .box-2{
 	border: 3px dotted #ccc;
@@ -88,11 +65,6 @@ clear:both;
 	margin: 20px 0;
 }
 
-.categories{
-	border: 1px #ccc solid;;
-	padding: 10px;
-	border-radius: 15px;
-}
 
 .categories h2{
 	text-align: center;
