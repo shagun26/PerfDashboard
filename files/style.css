@@ -12,11 +12,25 @@ body {
 	overflow: hidden;
 }
 
+.header h1 {
+	color: #ffffff;
+	max-width: 1200px;
+	padding: 20px;
+	margin: 0 auto;
+	font-weight: 700;
+	text-shadow: 1px 1px #9a0100;
+	letter-spacing: .1em;
+	line-height: 1em;
+	clear: both;
+	font-size: 1.5em;
+	display: block;
+	font-family: 'Lato', arial, sans-serif;
+}
+
 #main-header {
 	background-color:#e31837;
 	color:#ffffff;
-	padding: 15px;
-	margin: 20px 0;
+	margin: 20px 0 0 0;
 	text-align: center;
 }
 
@@ -123,9 +137,9 @@ clear:both;
 	width:100%;
 }
 
-.block{
+.module-block{
 	float:left;
-	width:33.3%;
+	width:25%;
 	border:1px solid #ccc;
 	padding:10px;
 	box-sizing: border-box;
